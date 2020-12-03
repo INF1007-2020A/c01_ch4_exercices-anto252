@@ -2,6 +2,10 @@ import discord
 from discord.ext import commands
 import random
 
+def test():
+    print("hello")
+
+
 #generrating the bot
 client = commands.Bot(command_prefix = '.')
 
